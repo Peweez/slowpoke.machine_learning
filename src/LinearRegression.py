@@ -30,7 +30,7 @@ print(model.coef_[0])
 print(model.intercept_[0]) 
 
 # visualize the dataset with  the fitted model
-plt.scatter(x, y, color='green')
+plt.scatter(x, y, color='912619')
 plt.plot(x, model.predict(x), color='black')
 plt.title('Linear Regression')
 plt.xlabel('Size')
